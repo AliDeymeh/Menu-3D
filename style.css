@@ -108,6 +108,9 @@ header{
     color: #fff;
     padding: 0 2rem;
 }
+.inner p{
+    margin-bottom: 3rem;
+}
 .title{
     font-size: 2.7rem;
 }
