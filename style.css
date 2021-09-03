@@ -141,6 +141,11 @@ header{
 .container.active .bar::after{
     transform: translateY(0) rotate(-45deg);
 }
+.container.active header
+    cursor: pointer;
+    animation: mainanimation 0.5s ease;
+    transform: perspective(1300px) translateZ(310px) rotateY(20deg) scale(0.5) translateX(200px) ;
+}
 .container.active .main{
     cursor: pointer;
     animation: mainanimation 0.5s ease;
