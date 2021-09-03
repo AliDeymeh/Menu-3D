@@ -149,7 +149,7 @@ header{
             transform: translate(0);
         }
         to{
-            transform: perspective(1300px) translateZ(310px) rotateY(20deg) scale(0.5);
+           transform: perspective(1300px) translateZ(310px) rotateY(20deg) scale(0.5)  translateX(200px) ;
 
         }
 }
