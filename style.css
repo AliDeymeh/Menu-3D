@@ -1,7 +1,18 @@
+@font-face {
+    font-family: 'Aviny';
+    src: url('fonts/aviny.otf') format('otf'),
+     url('fonts/aviny.ttf') format('truetype'),
+     url('fonts/avinyweb.woff') format('woff'),
+     url('fonts/avinyweb.woff2') format('woff2'),;
+    ;
+} 
+
 *{
+    font-family: 'Aviny';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 22px;
 }
 .container{
     height: 100vh;
@@ -201,7 +212,7 @@ ul{
 
 .links a:hover{
         color: #fff;
-        font-size: 23px;
+        font-size: 24.5px;
 }
 .container.active .links a{
     animation: apper 0.5s forwards ease var(--i);
